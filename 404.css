@@ -11,8 +11,6 @@ body {
   height: 100dvh;
   background: #000;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   font-family: "Kode Mono", monospace;
   color: #fff;
@@ -21,6 +19,7 @@ body {
   position: relative;
   display: grid;
   place-items: center;
+  margin-top: 200px;
 }
 
 .columns {

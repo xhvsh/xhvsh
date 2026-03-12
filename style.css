@@ -36,6 +36,9 @@
 
   --namemc-light: #2c2c2c;
   --namemc-dark: #272727;
+
+  --modrinth-light: #1ed860;
+  --modrinth-dark: #065520;
 }
 
 * {

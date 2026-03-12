@@ -10,6 +10,7 @@ let socials = [
   { name: "Spotify", link: "open.spotify.com/user/31eexkmyghhfiomdqy7ejvuchkqa" },
   { name: "TikTok", link: "tiktok.com/@xhvsh_" },
   { name: "NameMC", link: "namemc.com/xhvsh" },
+  { name: "Modrinth", link: "modrinth.com/user/xhvsh" },
 ];
 
 const links = document.querySelector(".links");
@@ -26,7 +27,7 @@ socials.forEach((s) => {
       <div class="popup">${s.name}</div>
       <img class="arrow" src="./img/arrow.webp" loading="lazy" />
     </a>
-    `
+    `,
   );
 });
 
@@ -48,7 +49,7 @@ const observer = new IntersectionObserver(
   },
   {
     threshold: Array.from({ length: 101 }, (_, i) => i / 100),
-  }
+  },
 );
 
 requestAnimationFrame(() => {

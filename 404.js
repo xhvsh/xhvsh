@@ -1,7 +1,7 @@
 const columns = document.querySelectorAll(".column");
 const counts = [30, 50, 70];
 const target = [24, 40, 64];
-const step = "clamp(4rem, 40vw, 12rem)";
+const step = "1em";
 
 columns.forEach((col, index) => {
   const totalSpans = counts[index];

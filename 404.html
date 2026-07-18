@@ -3,21 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Error 404</title>
-    <link rel="icon" type="image/x-icon" href="./img/404.webp" />
+    <title>404 | @xhvsh</title>
+    <link rel="icon" type="image/x-icon" href="./img/pfp.webp" />
+    <meta name="theme-color" content="#6018c4" />
 
     <link rel="stylesheet" href="./404.css" />
     <script src="./404.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="columns">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-      </div>
-      <h2><span>Page</span> <span>not</span> <span>found</span></h2>
-      <a href="https://xhvsh.github.io/"><span>◂</span> Go to Homepage <span>▸</span></a>
-    </div>
+    <main class="container">
+      <section class="not-found" aria-labelledby="page-title">
+        <a class="profile-link" href="./" aria-label="Go to xhvsh homepage">
+          <img src="./img/pfp.webp" alt="" aria-hidden="true" />
+          <span>xhvsh</span>
+        </a>
+
+        <div class="columns" aria-label="404">
+          <div class="column" aria-hidden="true"></div>
+          <div class="column" aria-hidden="true"></div>
+          <div class="column" aria-hidden="true"></div>
+        </div>
+
+        <div class="copy">
+          <h1 id="page-title"><span>Page</span> <span>not</span> <span>found</span></h1>
+        </div>
+
+        <div class="actions" aria-label="404 actions">
+          <a class="button primary" href="./"><span>Go home</span></a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
